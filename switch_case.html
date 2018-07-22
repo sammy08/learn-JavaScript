@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<select id="secao">faca a opcao
+		<option>sp</option>
+		<option>psg</option>
+		<option>outro</option>
+	</select>
+
+	<button onclick="Switch()">comecar</button>
+
+	<p id="response"></p>
+
+	<script type="text/javascript">
+		
+		function Switch(){
+
+		var selecao = document.getElementById("secao").value;
+
+		switch(selecao){
+			case 'sp':
+				document.getElementById("response").innerHTML = "SPPPP";
+				break;
+
+			case 'psg':
+				document.getElementById("response").innerHTML = "psssgggg";
+				break;
+
+			default:
+				document.getElementById("response").innerHTML = "goolll";
+				break;
+
+		}
+
+	}
+
+	</script>
+
+</body>
+</html>
