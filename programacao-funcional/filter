@@ -1,0 +1,15 @@
+var premier = [
+    {team:'Manchester United',wins: 20},
+    {team:'Liverpool',wins:18},
+    {team:'Arsenal',wins:13},
+    {team:'Everton',wins:9}
+];var numberOfWins = premier.filter(function(elem,index,array){
+    return array.indexOf(elem) % 2 == 0
+});var premier = [
+    {team:'Manchester United',wins: 20},
+    {team:'Liverpool',wins:18},
+    {team:'Arsenal',wins:13},
+    {team:'Everton',wins:9}
+];const allTeams = premier.map(premier => {return premier.team;});
+console.log(allTeams)
+console.log(numberOfWins)
