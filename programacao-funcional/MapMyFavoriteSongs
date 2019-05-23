@@ -1,0 +1,22 @@
+const songs = [
+  {id:1,name:"Amazing Grace",artist:'North Point'},
+  {id:2,name:'Obssesion',artist:'Jesus Culture'},
+  {id:3,name:'closer',artist:'Steffany'},
+  {id:4,name:"I m Wait",artist:'Trevis Greene'},
+  {id:5,name:"Amazing Grace",artist:'North Point'}
+]
+
+const numberOfMusic = playlist.reduce((prevAl,elem) => prevAl + elem.numberMusic, 0)
+
+const myArtistSong = songs.map(song => {
+  return song.artist
+})
+
+const mySongsFunc = songs.map(song => {
+  return song.name;
+})
+
+console.log("Artistas", myArtistSong)
+console.log("Musicas",mySongsFunc)
+console.log("Total de musicas da Playlist", numberOfMusic)
+
