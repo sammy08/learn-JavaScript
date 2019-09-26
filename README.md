@@ -1,6 +1,6 @@
 # learn-JavaScript
 
-Segue abaixo o link de alguns projetos meus utilizando Javascript
+Segue abaixo o link de alguns dos meus projeto utilizando Javascript
 
 #### To do List
 lista de Tarefas  <https://codepen.io/sammy08/pen/BgwPqB> via @CodePen
@@ -21,3 +21,4 @@ chat <https://codepen.io/sammy08/pen/mNLrdv> via @CodePen
 *em desenvolvimento*
 
 #### Magic Ball 
+Magic Ball <https://codepen.io/sammy08/pen/XWrQNej?editors=0010> via @CodePen
